@@ -44,6 +44,33 @@
   color: #c0c0c0;
 }
 
+.presentation {
+  background-color: #74cfae;
+}
 
+.presentation-inner {
+  display: flex;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
 
+.presentation-image {
+  width: 40%;
+
+}
+
+.presentation-contents {
+  width: 60%;
+  word-break: break-all;
+}
+
+.presentation-contents__title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.presentation-contents__text {
+  font-size: 20px;
+}
 
