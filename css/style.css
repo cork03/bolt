@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.header__icon {
+  font-size: 36px;
+}
+
+.header__button {
+  padding: 14px 12px;
+  background-color: #74cfae;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+
