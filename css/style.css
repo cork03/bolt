@@ -11,6 +11,9 @@
   justify-content: space-between;
   padding: 15px 0;
 }
+.header-hamburger {
+  display: none;
+}
 .header__icon {
   font-size: 36px;
 }
@@ -242,5 +245,41 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header__button {
+    display: none;
+  }
+  .header-hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .header-hamburger__line {
+    width: 40px;
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+  .theme-inner {
+    padding: 160px 0 130px 0;
+  }
+  .theme__title {
+    font-size: 80px;
+  }
+  .theme__subTitle {
+    font-size: 30px;
+  }
 
+  .sns-inner {
+    padding: 50px 0;
+  }
+  .sns-contents {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sns-contents-item {
+    width: 100%;
+  }
 }
