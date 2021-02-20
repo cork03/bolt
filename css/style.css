@@ -6,6 +6,11 @@
 }
 
 /* header */
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
 .header-inner {
   display: flex;
   justify-content: space-between;
