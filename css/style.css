@@ -125,3 +125,34 @@
   font-size: 12px;
   width: 20%;
 }
+
+.skills {
+  background-color: #4e4e4e;
+}
+
+.skills-inner {
+  padding: 70px 0 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.skills-contents {
+  display: flex;
+  padding-top: 50px;
+}
+
+.skills-contents :first-child {
+  margin-left: 0;
+}
+
+.skills-contents-item {
+  width: 25%;
+  margin-left: 180px;
+}
+
+.skills-contents-item__text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
