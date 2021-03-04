@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body {
+  font-family: Lato, Raleway;
+}
 
 .inner {
   margin: 0 auto;
