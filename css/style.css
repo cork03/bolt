@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: Lato, Raleway;
+  font-family: Lato;
 }
 
 .raleway {
@@ -37,7 +37,9 @@ body {
   background-color: white;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
 .header-inner {
   justify-content: space-between;
@@ -56,6 +58,10 @@ body {
   color: #4e4e4e;
 }
 
+main {
+  padding-top: 70px;
+}
+
 /* theme  */
 .theme {
   background-color: #f2f2f2;
@@ -67,11 +73,11 @@ body {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 .theme__subTitle {
   color: #c0c0c0;
   font-size: 30px;
+  margin-top: 20px;
 }
 
 /* presentation  */
@@ -92,11 +98,11 @@ body {
 }
 .presentation-contents__title {
   font-size: 24px;
-  margin-bottom: 35px;
 }
 .presentation-contents__text {
   font-size: 20px;
   line-height: 30px;
+  margin-top: 35px;
 }
 
 /* works  */
@@ -112,7 +118,8 @@ body {
 }
 .works-contents {
   flex-wrap: wrap;
-  margin: 40px 0 90px 0;
+  margin-top: 40px;
+  font-size: 0;
 }
 .works-contents .works-contents__item:nth-child(3n+1) {
   margin-left: 0;
@@ -125,7 +132,6 @@ body {
   margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: all .3s;
-  width: 33%-100px;
 }
 .works-contents__item a{
   opacity: 0.7;
@@ -135,6 +141,7 @@ body {
   opacity: 1;
 }
 .works-description {
+  margin-top: 90px;
   padding: 0 90px;
 }
 
@@ -159,7 +166,7 @@ body {
   padding: 70px 0 100px 0;
 }
 .skills-contents {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .skills-contents .skills-contents-item:first-child {
   margin-left: 0;
@@ -168,11 +175,9 @@ body {
   margin-left: 180px;
   width: 25%;
 }
-.skills-contents-item img {
-  margin-bottom: 20px;
-}
 .skills-contents-item__text {
   font-size: 16px;
+  margin-top: 20px;
 }
 
 /* sns  */
@@ -218,7 +223,10 @@ body {
     flex-direction: column;
   }
   .presentation-image {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
+  }
+  .presentation-contents__title {
+    margin-top: 20px;
   }
   .presentation-contents {
     margin: 0 auto;
@@ -228,7 +236,9 @@ body {
 /* works  */
   .works-contents {
     flex-direction: column;
-    margin-bottom: 80px;
+  }
+  .works-contents .works-contents__item:nth-child(3n+1) {
+    margin-left: auto;
   }
   .works-contents .works-contents__item:nth-child(3n+1) {
     margin-top: 80px;
@@ -237,16 +247,17 @@ body {
     margin-top: 0;
   }
   .works-contents__item {
-    margin: 0;
+    margin: 0 auto;
   }
   .works-description {
     flex-direction: column;
+    margin-top: 80px;
   }
   .works-description__text {
-    margin: 0 0 40px 0;
+    margin: 0;
   }
   .works-description .button {
-     margin: 0 auto;
+     margin: 40px auto 0 auto;
   }
 
 
