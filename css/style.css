@@ -228,7 +228,7 @@ body {
 /* works  */
   .works-contents {
     flex-direction: column;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
   .works-contents .works-contents__item:nth-child(3n+1) {
     margin-top: 80px;
