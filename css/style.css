@@ -132,6 +132,7 @@ main {
   margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: all .3s;
+  width: calc(33% - 100px);
 }
 .works-contents__item a{
   opacity: 0.7;
