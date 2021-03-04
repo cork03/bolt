@@ -3,6 +3,10 @@ body {
   font-family: Lato, Raleway;
 }
 
+.raleway {
+  font-family: Raleway;
+}
+
 .inner {
   margin: 0 auto;
   width: 1100px;
@@ -48,6 +52,7 @@ body {
 }
 .header__icon {
   font-size: 36px;
+  color: #4e4e4e;
 }
 
 /* theme  */
@@ -90,11 +95,13 @@ body {
 .presentation-contents__text {
   font-size: 20px;
   margin-top: 35px;
+  line-height: 30px;
 }
 
 /* works  */
 .works {
   background-color: #f2f2f2;
+  color: #4e4e4e;
 }
 .works-inner {
   padding: 60px 0 70px 0;
@@ -136,6 +143,7 @@ body {
 }
 .works-description__text {
   margin-right: 90px;
+  line-height: 20px;
 }
 .works-description__button:hover {
   color: #333;
