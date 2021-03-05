@@ -262,7 +262,7 @@ main {
     margin: 0 auto 0 auto;
   }
 
-  .presentation-contents__title {
+  .presentation-contents .title-h2 {
     margin-top: 20px;
   }
 
