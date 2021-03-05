@@ -135,8 +135,10 @@ main {
   font-size: 0;
 }
 
-.works-contents li:nth-child(3n+1) {
-  margin-left: 0;
+@media screen and (min-width: 1200px) {
+  .works-contents li:nth-child(3n+1) {
+    margin-left: 0;
+  }
 }
 
 .works-contents li:nth-child(-n+3) {
@@ -219,11 +221,6 @@ main {
   margin: 0 auto;
 }
 
-.sns-contents li {
-
-
-}
-
 .sns-contents li a {
   color: #74cfae;
   display: inline-block;
@@ -275,10 +272,6 @@ main {
 /* works  */
   .works-contents {
     flex-direction: column;
-  }
-
-  .works-contents li:nth-child(3n+1) {
-    margin-left: auto;
   }
 
   .works-contents li:nth-child(3n+1) {
