@@ -134,11 +134,7 @@ main {
   font-size: 0;
 }
 
-@media screen and (min-width: 1200px) {
-  .works-contents li:nth-child(3n+1) {
-    margin-left: 0;
-  }
-}
+
 
 .works-contents li:nth-child(-n+3) {
   margin-top: 0;
@@ -243,6 +239,12 @@ main {
   color: white;
   justify-content: flex-end;
   padding: 20px 0 25px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .works-contents li:nth-child(3n+1) {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 1199px) {
