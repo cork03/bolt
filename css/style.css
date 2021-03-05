@@ -213,7 +213,7 @@ main {
 }
 
 .sns-contents {
-  width: 740px;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -299,7 +299,7 @@ main {
   }
 
   .works-description .button {
-     margin: 40px auto 0 auto;
+     margin: 40px auto 0;
   }
 
 
@@ -309,11 +309,11 @@ main {
   }
 
   .skills-contents li:first-child {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
   }
 
   .skills-contents li {
-    margin: 88px auto  0 auto;
+    margin: 88px auto 0;
   }
 }
 
@@ -359,12 +359,9 @@ main {
     width: 100%;
    }
 
-  .sns .inner {
-    width: calc(100% - 30px);
-  }
   .sns-inner {
-    padding: 50px 0;
-    margin: 0 15px;
+    padding: 50px 15px;
+    box-sizing: border-box;
   }
 
   .sns-contents {
